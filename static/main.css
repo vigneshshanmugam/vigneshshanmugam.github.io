@@ -26,14 +26,10 @@ h1,h2,h3{
 	float: left;
 }
 
-.center{
-	text-align: center;
-}
-
 .header, .footer{
 	background-color : #333;
 	color: #bbb;
-	padding:5px 10px;
+	padding:10px 20px;
 	
 }
 
@@ -41,7 +37,8 @@ h1,h2,h3{
 	min-height : 100px;
 	background-color : #fff;
 	padding: 20px;
-	margin: 20px 0;
+	margin: 10px 0;
+	min-height: 500px;
 }
 
 .profile::after{
@@ -54,16 +51,22 @@ h1,h2,h3{
 
 .profile .logo{
 	width : 25%;
+	text-align : left;
 }
 .profile .content{
 	width : 75%;
 }
 
+.social h3{
+	text-align: center;
+}
+
 .social .icons .icon{
-	width: 200px;
+	width: 168px;
 	padding: 20px;
 	margin: 0px 10px;
 	display: inline-block;
+	text-align: center;
 }
 
 .social .icons a{
