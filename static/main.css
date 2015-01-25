@@ -26,6 +26,10 @@ h1,h2,h3{
 	float: left;
 }
 
+.center{
+	text-align: center;
+}
+
 .header, .footer{
 	background-color : #333;
 	color: #bbb;
@@ -57,10 +61,6 @@ h1,h2,h3{
 	width : 75%;
 }
 
-.social h3{
-	text-align: center;
-}
-
 .social .icons .icon{
 	width: 168px;
 	padding: 20px;
@@ -69,6 +69,9 @@ h1,h2,h3{
 	text-align: center;
 }
 
+.projects p{
+	font-size: 14px;
+}
 .social .icons a{
 	
 }
