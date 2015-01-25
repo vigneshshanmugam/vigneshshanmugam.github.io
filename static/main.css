@@ -26,6 +26,10 @@ h1,h2,h3{
 	float: left;
 }
 
+.font-14{
+	font-size: 14px;
+}
+
 .center{
 	text-align: center;
 }
@@ -61,19 +65,65 @@ h1,h2,h3{
 	width : 75%;
 }
 
-.social .icons .icon{
+.social .icons a{
 	width: 168px;
 	padding: 20px;
 	margin: 0px 10px;
 	display: inline-block;
 	text-align: center;
+	text-decoration: none;
+	position: relative;
 }
 
-.projects p{
-	font-size: 14px;
+.social .icons a:hover{
+	background-color: #ccc;
 }
-.social .icons a{
-	
+
+.social .icons .icon{
+	top: 10px;
+	margin-left: 4px;
+	border-radius : 50%;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+
+.social a .github{
+	background: url('social-sprites.png') no-repeat -456px -129px;
+	width: 32px;
+	height: 33px;
+	position: absolute;
+}
+
+.social a .twitter{
+	background: url('social-sprites.png') no-repeat -340px -129px;
+	width: 33px;
+	height: 33px;
+	position: absolute;
+}
+
+.social a .fb{
+	background: url('social-sprites.png') no-repeat -226px -129px;
+	width: 33px;
+	height: 32px;
+	position: absolute;
+}
+
+.social a .g-plus{
+	background: url('social-sprites.png') no-repeat -169px -129px;
+	width: 33px;
+	height: 32px;
+	position: absolute;
+	top: 10px;
+	margin-left: 4px;
+	border-radius: 50%;
+}
+
+.social a .linkedin{
+	background: url('social-sprites.png') no-repeat -398px -129px;
+	width: 33px;
+	height: 33px;
+	position: absolute;
 }
 
 .footer .copyright{
