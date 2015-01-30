@@ -42,7 +42,6 @@ h1,h2,h3{
 }
 
 .container{
-	min-height : 100px;
 	background-color : #fff;
 	padding: 20px;
 	margin: 10px 0;
@@ -59,7 +58,6 @@ h1,h2,h3{
 
 .profile .logo{
 	width : 25%;
-	text-align : left;
 }
 .profile .content{
 	width : 75%;
@@ -70,7 +68,6 @@ h1,h2,h3{
 	padding: 20px;
 	margin: 0px 10px;
 	display: inline-block;
-	text-align: center;
 	text-decoration: none;
 	position: relative;
 }
@@ -129,3 +126,19 @@ h1,h2,h3{
 .footer .copyright{
 	float: right;
 }
+
+@media only screen and (min-width:320px) and (max-width:480px){
+	.profile{
+		text-align : center;
+	}
+	.profile .logo, .profile .content{
+		width : 100%;
+		margin: auto;
+	}
+	.profile .content{
+		clear : both;
+	}
+	.social .icons a{
+		margin-left: -20px;
+	}
+}	
