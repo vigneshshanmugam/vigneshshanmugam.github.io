@@ -63,6 +63,13 @@ h1,h2,h3{
 	width : 75%;
 }
 
+.projects .proj-head{
+	text-decoration: underline;
+}
+.projects a{
+	text-decoration: none;
+}
+
 .social .icons a{
 	width: 168px;
 	padding: 20px;
