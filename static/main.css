@@ -63,9 +63,10 @@ h1,h2,h3{
 	width : 75%;
 }
 
-.projects .proj-head{
-	text-decoration: underline;
+.projects .proj-list{
+	margin-left: 15px;
 }
+
 .projects a{
 	text-decoration: none;
 }
