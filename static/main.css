@@ -32,6 +32,7 @@ h1,h2,h3{
 
 .center{
 	text-align: center;
+	text-decoration: underline;
 }
 
 .header, .footer{
@@ -63,12 +64,16 @@ h1,h2,h3{
 	width : 75%;
 }
 
-.projects .proj-list{
-	margin-left: 15px;
+.container li {
+	line-height: 25px;
 }
 
-.projects a{
+.container a{
 	text-decoration: none;
+}
+
+.container a:hover{
+	background-color: #ccc;
 }
 
 .social .icons a{
@@ -82,6 +87,7 @@ h1,h2,h3{
 
 .social .icons a:hover{
 	background-color: #ccc;
+	cursor: pointer;
 }
 
 .social .icons .icon{
