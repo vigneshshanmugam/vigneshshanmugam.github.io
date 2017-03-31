@@ -70,6 +70,7 @@ h1,h2,h3{
 
 .container a{
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .container a:hover{
