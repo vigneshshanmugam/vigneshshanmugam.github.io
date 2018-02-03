@@ -35,11 +35,10 @@ h1,h2,h3{
 	text-decoration: underline;
 }
 
-.header, .footer{
+header, footer{
 	background-color : #333;
 	color: #bbb;
 	padding:10px 20px;
-	
 }
 
 .container{
@@ -61,7 +60,8 @@ h1,h2,h3{
 	width : 25%;
 }
 .profile .content{
-	width : 75%;
+	width : 70%;
+	margin-left: 30px;
 }
 
 .container li {
@@ -77,12 +77,15 @@ h1,h2,h3{
 	background-color: #ccc;
 }
 
+.social .icons {
+	text-align: center;
+}
+
 .social .icons a{
 	width: 168px;
 	padding: 20px;
 	margin: 0px 10px;
 	display: inline-block;
-	text-decoration: none;
 	position: relative;
 }
 
@@ -142,7 +145,7 @@ h1,h2,h3{
 	float: right;
 }
 
-@media only screen and (min-width:320px) and (max-width:480px){
+@media only screen and (max-width:680px){
 	.profile{
 		text-align : center;
 	}
