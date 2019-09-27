@@ -1,114 +1,290 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-	<meta charset="utf-8">
-	<title>Vignesh Shanmugam</title>
-	<link rel="preload" href="static/main.css" as="style">
-	<link rel="preload" href="static/prof-pic.jpg" as="image">
-	<link rel="preload" href="static/droadsans.woff2" as="font" type="font/woff2">
-	<link rel="preload" href="static/social-sprites.png" as="image">
-	<meta name="author" content="Vignesh Shanmugam">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Vignesh Shanmugam - Senior Front End Engineer at Zalando focussing on web performance.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="http://vigneshh.in/">
-	<link rel="stylesheet" type="text/css" href="static/main.css">
-  	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-81233227-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-</head>
-<body>
-	<header>
-		<h1 class="name">Vignesh Shanmugam</h1>
-		<h3 class="skills">Web Performance, JavaScript Fanatic, Front End Enthusiast, Mozillian, Hate's slow websites</h3>
-	</header>
-  	<div class="container">
-  		<div class="profile">
-	  		<div class="logo left">
-	  			<img width="200px" height="220px" src="static/prof-pic.jpg">
-	  		</div>
-	  		<div class="content left">
-	  			<p>I'm Vignesh, Software Engineer at Elastic</p>
-				<p>I Enjoy evangelizing the magic of web performance.</p>
-	  			<p>Passion towards Benchmarking, Profiling, Debugging and Tooling.</p>
-	  			<p><a href="https://blog.mozilla.org/community/2015/05/14/mdnfellowsannouncement/" target="_blank" rel="noopener">Mozilla</a>
-	  			<a href="https://blog.mozilla.org/community/2015/09/23/mdn-fellows-what-they-did-whats-next/" target="_blank" rel="noopener">Fellow</a> for Web Performance.
-	  			</p>
-	  			<p>
-					Maintaining <a href="https://github.com/zalando/tailor" target="_blank">Tailor</a> and <a href="https://github.com/babel/babili" target="_blank">Babili</a>.
-				</p>
-	  		</div>
-  		</div>
-  		<div class="blog-talks">
-  			<h3 class="center">Blogs & Talks</h3>
-  			<ul>
-  				<li><a href="https://www.oreilly.com/ideas/better-streaming-layouts-for-frontend-microservices-with-tailor">Streaming layouts for front-end microservices</a></li>
-				<li><a href="https://boopathi.in/zalando-pwa-meetup/">Progressive Web Apps</a></li>
-				<li>
-					<a href="https://docs.google.com/presentation/d/1ysgFWTxBmJFV6I7C9RXgp53pjS_FjH7I-7iN2c-m4Pw/">Babel @ Zalando</a>
-				</li>
-		</ul>
-  		</div>
-		<div class="projects">
-	  		<h3 class="center">Projects</h3>
-			<ul>
-				<li>
-					<a href="https://github.com/vigneshshanmugam/js-cpa">js-cpa</a> - Code Pattern analysis for JavaScript
-				</li>
-				<li>
-					<a href="https://github.com/vigneshshanmugam/script-order">script-order</a> - Check the order in which all script tags were executed on a web page
-				</li>
-				<li>
-					<a href="https://github.com/vigneshshanmugam/optimize-js-plugin">optimize-js-plugin</a> - Webpack plugin to optimize a JavaScript file for faster initial load
-				</li>
-				<li>
-					<a href="https://github.com/vigneshshanmugam/chunk-view">chunk-view</a> - Analyse and visualize HTTP response chunks
-				</li>
-				<li>
-					<a href="https://github.com/vigneshshanmugam/sw-resource-priority">sw-resource-priority</a> - Resource Scheduling with Service Worker
-				</li>
-				<li>
-					<a href="https://github.com/vigneshshanmugam/react-memorystats">react-memorystats</a> - React Component for Memory Stats
-				</li>
-			</ul>
-	  	</div>
-  		<div class="social">
-	  		<h3 class="center">Follow me on</h3>
-	  		<div class="icons">
-  				<a href="https://github.com/vigneshshanmugam" target="_blank" rel="noopener">
-  					Github
-  					<span class="github icon"></span>
-  				</a>
-  				<a href="https://twitter.com/_vigneshh" target="_blank" rel="noopener">
-  					Twitter
-  					<span class="twitter icon"></span>
-  				</a>
-  				<a href="https://plus.google.com/+VigneshShanmugam22" target="_blank" rel="noopener">
-  					Google Plus
-  					<span class="g-plus icon"></span>
-  				</a>
-  				<a href="https://www.facebook.com/vignesh.shanmugam.507" target="_blank" rel="noopener">
-  					Facebook
-  					<span class="fb icon"></span>
-  				</a>
-  				<a href="http://in.linkedin.com/in/vigneshshanmugam22/" target="_blank" rel="noopener">
-  					Linkedin
-  					<span class="linkedin icon"></span>
-  				</a>
-	  		</div>
-	  	</div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vignesh Shanmugam</title>
+    <link rel="preload" href="static/main.css" as="style" />
+    <link rel="preload" href="static/prof-pic.jpg" as="image" />
+    <link
+      rel="preload"
+      href="static/droadsans.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link rel="preload" href="static/social-sprites.png" as="image" />
+    <meta name="author" content="Vignesh Shanmugam" />
+    <meta
+      http-equiv="origin-trial"
+      content="AgM2Vv4OzR94mGu1fW68m3f+4HpiwPOSvdMxl9OLKrXi/c3o5+Etu+idb06xyhFoLnjEEBgx5u96gaLhB1CXNgwAAABbeyJvcmlnaW4iOiJodHRwczovL3ZpZ25lc2hoLmluOjQ0MyIsImZlYXR1cmUiOiJFeHBlcmltZW50YWxKU1Byb2ZpbGVyIiwiZXhwaXJ5IjoxNTczMjAzODQwfQ=="
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Vignesh Shanmugam - Senior Front End Engineer at Zalando focussing on web performance."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (async () => {
+        const profiler = await performance.profile({
+          categories: ["js"],
+          sampleInterval: 1,
+          sampleBufferSize: 2048
+        });
 
-  	</div>
+        window.addEventListener("load", async () => {
+          const trace = await profiler.stop();
+          getTraces(trace);
+        });
 
-  	<footer>
-  		<span>Web is gonna win.</span>
-		<span class="copyright">© 2014 vigneshh.in.</span>
-  	</footer>
-  	<script async defer type="text/javascript" src="static/main.js"></script>
-</body>
+        function buildCodeFrame(trace, stack) {
+          const frame = getCurrentFrame(trace, stack.frameId);
+          return constructFrame(trace, frame);
+        }
+
+        function constructFrame(trace, frame) {
+          let { name, line, column, resourceId } = frame;
+          /**
+           * anonymous functions
+           */
+          if (!name) {
+            name = "anonymous";
+          }
+          /**
+           * Native code
+           */
+          if (!line || !column) {
+            return `at ${name} (native code)`;
+          }
+          const resourceName = getResource(trace, resourceId);
+          const message = `at ${name} (${resourceName}:${line}:${column})`;
+          return message;
+        }
+
+        function getCurrentStack(trace, stackId) {
+          return trace.stacks[stackId];
+        }
+
+        function getCurrentFrame(trace, frameId) {
+          return trace.frames[frameId];
+        }
+
+        function buildFrames(trace, stack, frame = "") {
+          const { parentId } = stack;
+
+          if (parentId != null) {
+            frame += buildCodeFrame(trace, stack);
+            const nextStack = getCurrentStack(trace, parentId);
+            frame += "\n";
+            if (frame.split("\n").length !== 1) {
+              frame += "   ";
+            }
+            return buildFrames(trace, nextStack, frame);
+          }
+
+          frame += buildCodeFrame(trace, stack);
+          return frame;
+        }
+
+        function getResource(trace, resource) {
+          return trace.resources[resource];
+        }
+
+        function getTraces(trace) {
+          for (const sample of trace.samples) {
+            const stack = getCurrentStack(trace, sample.stackId);
+            if (!stack) {
+              continue;
+            }
+            const time = Math.round(sample.timestamp);
+            const frame = buildFrames(trace, stack);
+            console.log(`Time ${time}ms`, frame);
+          }
+        }
+      })();
+    </script>
+    <link rel="canonical" href="http://vigneshh.in/" />
+    <link rel="stylesheet" type="text/css" href="static/main.css" />
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-81233227-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1 class="name">Vignesh Shanmugam</h1>
+      <h3 class="skills">
+        Web Performance, JavaScript Fanatic, Front End Enthusiast, Mozillian,
+        Hate's slow websites
+      </h3>
+    </header>
+    <div class="container">
+      <div class="profile">
+        <div class="logo left">
+          <img width="200px" height="220px" src="static/prof-pic.jpg" />
+        </div>
+        <div class="content left">
+          <p>I'm Vignesh, Software Engineer at Elastic</p>
+          <p>I Enjoy evangelizing the magic of web performance.</p>
+          <p>Passion towards Benchmarking, Profiling, Debugging and Tooling.</p>
+          <p>
+            <a
+              href="https://blog.mozilla.org/community/2015/05/14/mdnfellowsannouncement/"
+              target="_blank"
+              rel="noopener"
+              >Mozilla</a
+            >
+            <a
+              href="https://blog.mozilla.org/community/2015/09/23/mdn-fellows-what-they-did-whats-next/"
+              target="_blank"
+              rel="noopener"
+              >Fellow</a
+            >
+            for Web Performance.
+          </p>
+          <p>
+            Maintaining
+            <a href="https://github.com/zalando/tailor" target="_blank"
+              >Tailor</a
+            >
+            and
+            <a href="https://github.com/babel/babili" target="_blank">Babili</a
+            >.
+          </p>
+        </div>
+      </div>
+      <div class="blog-talks">
+        <h3 class="center">Blogs & Talks</h3>
+        <ul>
+          <li>
+            <a
+              href="https://www.oreilly.com/ideas/better-streaming-layouts-for-frontend-microservices-with-tailor"
+              >Streaming layouts for front-end microservices</a
+            >
+          </li>
+          <li>
+            <a href="https://boopathi.in/zalando-pwa-meetup/"
+              >Progressive Web Apps</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/presentation/d/1ysgFWTxBmJFV6I7C9RXgp53pjS_FjH7I-7iN2c-m4Pw/"
+              >Babel @ Zalando</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="projects">
+        <h3 class="center">Projects</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/vigneshshanmugam/js-cpa">js-cpa</a> -
+            Code Pattern analysis for JavaScript
+          </li>
+          <li>
+            <a href="https://github.com/vigneshshanmugam/script-order"
+              >script-order</a
+            >
+            - Check the order in which all script tags were executed on a web
+            page
+          </li>
+          <li>
+            <a href="https://github.com/vigneshshanmugam/optimize-js-plugin"
+              >optimize-js-plugin</a
+            >
+            - Webpack plugin to optimize a JavaScript file for faster initial
+            load
+          </li>
+          <li>
+            <a href="https://github.com/vigneshshanmugam/chunk-view"
+              >chunk-view</a
+            >
+            - Analyse and visualize HTTP response chunks
+          </li>
+          <li>
+            <a href="https://github.com/vigneshshanmugam/sw-resource-priority"
+              >sw-resource-priority</a
+            >
+            - Resource Scheduling with Service Worker
+          </li>
+          <li>
+            <a href="https://github.com/vigneshshanmugam/react-memorystats"
+              >react-memorystats</a
+            >
+            - React Component for Memory Stats
+          </li>
+        </ul>
+      </div>
+      <div class="social">
+        <h3 class="center">Follow me on</h3>
+        <div class="icons">
+          <a
+            href="https://github.com/vigneshshanmugam"
+            target="_blank"
+            rel="noopener"
+          >
+            Github
+            <span class="github icon"></span>
+          </a>
+          <a
+            href="https://twitter.com/_vigneshh"
+            target="_blank"
+            rel="noopener"
+          >
+            Twitter
+            <span class="twitter icon"></span>
+          </a>
+          <a
+            href="https://plus.google.com/+VigneshShanmugam22"
+            target="_blank"
+            rel="noopener"
+          >
+            Google Plus
+            <span class="g-plus icon"></span>
+          </a>
+          <a
+            href="https://www.facebook.com/vignesh.shanmugam.507"
+            target="_blank"
+            rel="noopener"
+          >
+            Facebook
+            <span class="fb icon"></span>
+          </a>
+          <a
+            href="http://in.linkedin.com/in/vigneshshanmugam22/"
+            target="_blank"
+            rel="noopener"
+          >
+            Linkedin
+            <span class="linkedin icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <span>Web is gonna win.</span>
+      <span class="copyright">© 2014 vigneshh.in.</span>
+    </footer>
+    <script async defer type="text/javascript" src="static/main.js"></script>
+  </body>
 </html>
