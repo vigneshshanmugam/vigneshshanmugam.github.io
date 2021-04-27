@@ -117,23 +117,6 @@ header, footer{
 	position: absolute;
 }
 
-.social a .fb{
-	background: url('social-sprites.png') no-repeat -226px -129px;
-	width: 33px;
-	height: 32px;
-	position: absolute;
-}
-
-.social a .g-plus{
-	background: url('social-sprites.png') no-repeat -169px -129px;
-	width: 33px;
-	height: 32px;
-	position: absolute;
-	top: 10px;
-	margin-left: 4px;
-	border-radius: 50%;
-}
-
 .social a .linkedin{
 	background: url('social-sprites.png') no-repeat -398px -129px;
 	width: 33px;
